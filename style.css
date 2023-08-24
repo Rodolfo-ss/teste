@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+header .logo .other {
+    font-family: 'Rubik Mono One';
+    font-size: xx-large;
+}
+
+
+.header {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.header .logo .fast {
+    font-family: 'Lobster';
+    color: orangered;
+}
+
+.header .logo {
+    padding-right: 650px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 400px;
+}
+
+.pages {
+    display: flex;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.pages li {
+    margin: 10px;
+}
+
+.linha {
+    width: 920px;
+    border: 1px solid #000;
+    margin-left: 80px;
+}
+
+.linha:last-child {
+    margin: 70px;
+}
+
+.tell {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fisrtPart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fisrtPart p {
+    width: 200px;
+
+}
+
+.tell img {
+    margin: 5px;
+    width: 14px;
+    height: 14px;
+}
+
+.inPhotos img {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+}
+
+.inPhotos p{
+    font-size: 20px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
+
+.photos img {
+    margin: 20px;
+}
+
+
+.twoPart {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.twoPart img {
+    margin: 20px;
+}
+
+.threePart {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.threePart img {
+    margin: 20px;
+}
+
+.fourPart {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.fourPart img {
+    margin: 20px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.insidePart {
+    display: flex;
+    justify-content: center;
+   padding-left: 60px;
+    align-items: center;
+   
+}
+
+.insidePart img {
+    width: 200px;
+    height: 150px;
+    margin:10px;
+    padding: 6px;
+}
+
+.insidePart h2{
+   padding: 5px;
+}
+
+.insidePart .text p {
+    width: 400px;
+  
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding-right: 35px;
+}
+
+.redes p{
+    font-size: 22px;
+}
+
+.redes img{
+   margin: 10px;
+    width: 30px;
+    height: 28px;
+}
+
+.redes .book{
+    display: flex;
+    align-items: center;
+}
+
+.redes .tuiter{
+    display: flex;
+    align-items: center;
+}
+
+.redes .fliker{
+    display: flex;
+    align-items: center;
+}

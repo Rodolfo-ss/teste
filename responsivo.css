@@ -1,0 +1,117 @@
+@media only screen and (max-width: 480px) {
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding-right: 90px;
+    }
+
+
+    .header .logo {
+        white-space: nowrap;
+        display: flex;
+        position: absolute;
+      margin-left: 200px;
+    }
+
+    .header .tell {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        padding-top: 10px;
+        margin-left: 150px;
+    }
+
+    .navigation .pages {
+        display: flex;
+        padding-right: 330px;
+    }
+
+    .inPhotos {
+        display: grid;
+        grid-template-columns: repeat(1, 4fr, );
+        padding-bottom: 20px;
+    }
+
+    footer .insidePart {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       padding-right: 40px;
+    }
+
+    .insidePart .text p {
+        width: 300px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding-right: 190px;
+    }
+
+
+    .header .logo {
+        white-space: nowrap;
+        display: flex;
+       position: absolute;
+       padding-right: 30px;
+    }
+
+    .header .tell {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        padding-top: 90px;
+    }
+
+    .navigation .pages{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .header {
+        display: flex;
+        flex-direction: column;
+        padding-right: 190px;
+        align-items: center;
+    }
+
+    .header .logo{
+        display: flex;
+        white-space: nowrap;
+        
+    }
+    
+    .header .tell {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        padding-top: 90px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .header .logo{
+        white-space: nowrap;
+    }
+
+    .header .tell{
+        white-space: nowrap;
+    }
+}
